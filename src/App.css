@@ -1,0 +1,26 @@
+.btn-green{
+    background-color: darkgreen;
+    color: white;
+    opacity: 0.65;
+}
+
+.add-btn{
+    padding: 1%;
+    margin: 20px;
+    border: none;
+    width: 10vw;
+    font-size: large;
+    
+}
+
+.directory{
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.25em;
+    opacity: 0.65;
+
+    display: grid;
+    grid-template-columns: 40% 30% auto;
+    grid-template-rows: auto;
+}
