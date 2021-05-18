@@ -19,7 +19,7 @@ class App extends Component {
 
     return (
       <div className="component-container">
-      <Header />
+      <Header heading="Phone Directory"/>      
       <div className="component-body-container">
         <button className="custom-btn add-btn">Add</button>
 
@@ -27,7 +27,7 @@ class App extends Component {
           <span className="grid-item name-heading">Name</span>
           <span className="grid-item phone-heading">Phone</span>
         </div>
-
+        
         {
           contactDetails.map(elem=>{
             return <div key={elem.id} className="grid-container">
@@ -39,7 +39,7 @@ class App extends Component {
                   </div>
           })
         }
-
+       
       </div>
     </div>
     );
